@@ -25,7 +25,7 @@ export default class Menu extends Component {
                 <nav className={this.state.menuBurger ? "menu-navigation open" : "menu-navigation"}>
                     <ul>
                         <li>Home</li>
-                        <li>Master Page</li>
+                        <li>Components</li>
                         <li>About</li>
                         <li>Contact</li>
                     </ul>
