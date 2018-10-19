@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 import { Icon } from 'react-icons-kit'
 import {ic_menu} from 'react-icons-kit/md/ic_menu'
 
@@ -24,8 +25,8 @@ export default class Menu extends Component {
                 </div>
                 <nav className={this.state.menuBurger ? "menu-navigation open" : "menu-navigation"}>
                     <ul>
-                        <li>Home</li>
-                        <li>Components</li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/components">Components</Link></li>
                         <li>About</li>
                         <li>Contact</li>
                     </ul>
