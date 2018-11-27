@@ -7,6 +7,7 @@ import AlertMessage from '../../components/AlertMessage';
 import Button from '../../components/Button';
 import Card from '../../components/Card';
 import Slider, {Slide} from '../../components/Slider';
+import Collapse from '../../components/Collapse';
 
 export default class ComponentsContainer extends Component {
 
@@ -154,6 +155,26 @@ export default class ComponentsContainer extends Component {
                                     <Slide><img src="https://source.unsplash.com/1000x350/?nature" alt=""/></Slide>
                                     <Slide><img src="https://source.unsplash.com/1000x350/?nature" alt=""/></Slide>                                    
                                 </Slider>
+                            </div>
+                        </div>
+
+                        <div className="component-example">
+                            <div className="component-example-title">
+                                <h3>Collapse</h3>
+                            </div>
+                            <div className="component-example-description">
+                                <p>Botão que que mostra ou esconde conteudo agregado ao componente</p>
+                            </div>
+                            <div className="components-example-item">
+                                <Collapse title="Toggle Collapse">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus tellus, porta non aliquam semper, viverra vel quam. In hac habitasse platea dictumst. Phasellus condimentum orci sed ipsum ornare, sed vestibulum nisl suscipit. Aenean venenatis est sit amet leo maximus, et condimentum nibh interdum. Proin semper ex eget metus placerat, blandit laoreet nisi faucibus. Ut varius malesuada dolor, porta sagittis tellus blandit et. Aliquam erat volutpat. In facilisis dolor sapien, a tempus ante mattis eget. Vestibulum vulputate rutrum purus at ultrices. Nam ultrices est vel consectetur interdum. Suspendisse ac quam quam. Maecenas finibus ullamcorper aliquam. Nunc sodales a odio ut placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                </Collapse>
+                                <Collapse title="Toggle Collapse">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus tellus, porta non aliquam semper, viverra vel quam. In hac habitasse platea dictumst. Phasellus condimentum orci sed ipsum ornare, sed vestibulum nisl suscipit. Aenean venenatis est sit amet leo maximus, et condimentum nibh interdum. Proin semper ex eget metus placerat, blandit laoreet nisi faucibus. Ut varius malesuada dolor, porta sagittis tellus blandit et. Aliquam erat volutpat. In facilisis dolor sapien, a tempus ante mattis eget. Vestibulum vulputate rutrum purus at ultrices. Nam ultrices est vel consectetur interdum. Suspendisse ac quam quam. Maecenas finibus ullamcorper aliquam. Nunc sodales a odio ut placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                </Collapse>
+                                <Collapse title="Toggle Collapse">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus tellus, porta non aliquam semper, viverra vel quam. In hac habitasse platea dictumst. Phasellus condimentum orci sed ipsum ornare, sed vestibulum nisl suscipit. Aenean venenatis est sit amet leo maximus, et condimentum nibh interdum. Proin semper ex eget metus placerat, blandit laoreet nisi faucibus. Ut varius malesuada dolor, porta sagittis tellus blandit et. Aliquam erat volutpat. In facilisis dolor sapien, a tempus ante mattis eget. Vestibulum vulputate rutrum purus at ultrices. Nam ultrices est vel consectetur interdum. Suspendisse ac quam quam. Maecenas finibus ullamcorper aliquam. Nunc sodales a odio ut placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                </Collapse>
                             </div>
                         </div>
                     </div>
