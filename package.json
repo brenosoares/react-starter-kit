@@ -5,10 +5,12 @@
   "dependencies": {
     "node-sass": "^4.9.3",
     "react": "^16.5.2",
+    "react-animate-height": "^2.0.7",
     "react-dom": "^16.5.2",
     "react-icons-kit": "^1.2.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.4"
+    "react-scripts": "2.0.4",
+    "swiper": "^4.4.2"
   },
   "scripts": {
     "start": "react-scripts start",

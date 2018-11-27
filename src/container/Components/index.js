@@ -1,12 +1,17 @@
 import React, { Component } from 'react'
 
+
 // Style
 import './style.sass'
 import AlertMessage from '../../components/AlertMessage';
 import Button from '../../components/Button';
 import Card from '../../components/Card';
+import Slider, {Slide} from '../../components/Slider';
 
 export default class ComponentsContainer extends Component {
+
+    
+
     render() {
         return (
             <div className="components-container">
@@ -126,7 +131,29 @@ export default class ComponentsContainer extends Component {
 
                             </div>
                             <div className="components-example-item">
-
+                                <Slider 
+                                    classControl="classe-controle"
+                                    options={{
+                                        slidesPerView: 1,
+                                        spaceBetween: 20,
+                                        autoplay: {
+                                            delay: 3000
+                                        },
+                                        pagination: {
+                                            el: '.swiper-pagination',
+                                            type: 'bullets',
+                                            clickable: true
+                                        },
+                                        navigation: {
+                                            nextEl: '.swiper-button-next',
+                                            prevEl: '.swiper-button-prev',
+                                        },
+                                    }}
+                                >
+                                    <Slide><img src="https://source.unsplash.com/1000x350/?nature" alt=""/></Slide>
+                                    <Slide><img src="https://source.unsplash.com/1000x350/?nature" alt=""/></Slide>
+                                    <Slide><img src="https://source.unsplash.com/1000x350/?nature" alt=""/></Slide>                                    
+                                </Slider>
                             </div>
                         </div>
                     </div>

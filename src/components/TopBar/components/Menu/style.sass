@@ -19,26 +19,24 @@
         background-color: #a52424
         display: block
         left: 0
-        height: 0
-        padding: 0px
         position: absolute
         overflow: hidden
         top: 40px
         width: 100%
-        &.open
-            height: auto
-            padding: 20px
         @media (min-width: 860px)
             background-color: transparent
             left: 0
             position: relative
+            padding: 20px
             height: auto
             top: 0
         ul
             display: flex
             flex-flow: column nowrap
             width: 100%
+            padding: 20px
             @media (min-width: 860px)
+                padding: 0
                 flex-flow: row nowrap
             li
                 border-bottom: 1px solid rgba(0,0,0,0.3)
